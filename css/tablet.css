@@ -1,0 +1,179 @@
+@media screen and (min-width:768px) and (max-width:1023px){
+
+
+.container{
+    width: 768px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* header  */
+header{
+    width: 768px;
+    justify-content: center;
+}
+header h2{
+    font-size: 28px;
+
+}
+
+
+
+
+.influencer_wrap{
+    flex-direction: column-reverse;
+    justify-content: center;
+}
+.influencer_text{
+    text-align: center;
+}
+.influencer_text h2{
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+.influencer_text p{
+    width: 650px;
+    font-size: 35px;
+    text-align: center;
+    text-align: center;
+    margin: 0 auto 30px auto;
+
+}
+.influencer_text span a{
+    font-size: 30px;    
+}
+
+
+/* popular style  */
+
+.collections_box{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    justify-content: center;
+}
+.see_more a{
+    font-size: 35px;
+}
+
+/* letest style  */
+
+
+.latest_wrap h2{
+    font-size: 50px;
+}
+
+.latest_box_wrap{
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+    grid-gap: 50px;
+    justify-content: center;
+}
+
+footer{
+    width: 100%;
+}
+
+}
+
+
+/* mobile  */
+@media screen and  (max-width:767px){
+
+
+    .container{
+        max-width: 500px;
+        margin: 0 auto;
+        margin-top: 30px;
+        padding: 10px; 
+    }
+
+
+    header{
+        width: 500px;
+        justify-content: center;
+    }
+    header h2{
+        font-size: 28px;
+    
+    }
+
+    
+/* influencer */
+
+    .influencer_wrap{
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .influencer_text{
+        text-align: center;
+    }
+    .influencer_text h2{
+        font-size: 25px;
+        margin-bottom: 40px;
+    }
+    .influencer_text p{
+        font-size: 20px;
+        text-align: center;
+        text-align: center;
+        padding: 0 40px;
+        margin: 0 auto 30px auto;
+    
+    }
+    .influencer_img_wrap{
+        width: 300px;
+        height: 300px;
+        background-image: url(../images/svg/Circle\ design.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .influencer_img_wrap img{
+        width: 100%;
+        transform: scale(0.6);
+        transition: .3s ease-in;
+    }
+    .influencer_img_wrap:hover > img{
+        transform: scale(0.7);
+    }
+    
+/* popular style  */
+
+.collections_box{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 50px;
+    justify-content: center;
+}
+.see_more a{
+    font-size: 25px;
+}
+.item_img{
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.box_4 .item_img img, .box_6 .item_img img{
+    transform: scale(0.6);
+}
+        /* latest_box */
+.latest_wrap h2{
+    font-size: 30px;
+}
+
+.latest_box_wrap{
+    display: grid;
+    grid-template-columns: repeat(1, 300px);
+    grid-gap: 50px;
+    justify-content: center;
+}
+.item_img{
+    width: 100%;
+}
+
+
+
+}
