@@ -222,3 +222,96 @@ footer{
     font-size: 28px;
 
 }
+
+
+
+
+/* new item  */
+
+
+/* overlay style start -------------------------------------------------- */
+.latest_box{
+    position: relative;
+    overflow: hidden;
+    transition: 5s;
+}
+.box_overlay_info{
+    position: absolute;
+    border-radius: 10px;
+    top: -300px;
+    left: 0px;
+    left: 0;
+}
+
+.latest_box:hover .box_overlay_info{
+    top: 0; left: 0;
+    transition: .4s ease-in-out;
+}
+
+/* overlay style end  -----------------------------------------------------*/
+
+
+
+.latest_wrap h2{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.latest_wrap h2 span{
+    color: var(--button-bg-color);
+}
+.latest_box_wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.latest_box{
+    width: 300px;
+    height: 300px;
+    box-shadow: 0px 0px 21px -4px rgba(97,96,97,1);
+    border-radius: 10px;
+
+}
+.box_img{
+    padding: 15px;
+}
+.box_img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+}
+.box_title{
+    color: white;
+    text-align: center;
+}
+.box_title h4{
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}
+.box_title p{
+    color: #ffc400;
+}
+.box_title .btn{
+    margin-top: 20px;
+    border: none;
+}
+.box_title .btn a{
+    background-color: var(--button-bg-color);
+    color: white;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-weight: 600;
+}
+.box_title p{
+    margin-top: 10px;
+}
+
+.box_overlay_info{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
